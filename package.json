@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "sass": "sass --no-source-map --watch sass/main.scss css/style.css"
   },
   "author": "Diego",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "husky": "^9.0.11"
+    "husky": "^9.0.11",
+    "sass": "^1.71.1"
   }
 }
