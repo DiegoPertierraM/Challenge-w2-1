@@ -1,0 +1,93 @@
+.ba-body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fff9f9;
+}
+
+.ba-logo__img {
+  margin-inline-start: 30px;
+}
+
+.ba-content {
+  width: 85%;
+  margin-inline: auto;
+  text-align: center;
+}
+.ba-content .ba-content__title {
+  margin-block-start: 60px;
+  text-align: center;
+}
+.ba-content .ba-content__title h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: var(--desaturated-red);
+}
+.ba-content .ba-content__title h1 div {
+  font-weight: 500;
+  color: var(--dark-grayish-red);
+}
+.ba-content p {
+  line-height: 1.5rem;
+  color: var(--desaturated-red);
+}
+.ba-content form input[type=email] {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid var(--desaturated-red);
+  border-radius: 30px;
+}
+.ba-content form input[type=email]::placeholder {
+  color: var(--desaturated-red);
+  filter: opacity(0.5);
+  padding-inline-start: 1.5rem;
+  letter-spacing: 1px;
+}
+.ba-content form button {
+  position: absolute;
+  right: 30px;
+  width: 65px;
+  height: 50px;
+  background-color: #f2a5a5;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+:root {
+  --desaturated-red: hsl(0, 36%, 70%);
+  --soft-red: hsl(0, 93%, 68%);
+  --dark-grayish-red: hsl(0, 6%, 24%);
+  --main-gradient: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  --sec-gradient: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Home con links */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.home__links {
+  margin: 0 auto;
+}
+
+.home__links a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(106, 106, 216);
+}

@@ -1,0 +1,57 @@
+.ba-body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fff9f9;
+}
+
+.ba-logo__img {
+  margin-inline-start: 30px;
+}
+.ba-content {
+  width: 85%;
+  margin-inline: auto;
+  text-align: center;
+  .ba-content__title {
+    margin-block-start: 60px;
+    text-align: center;
+    h1 {
+      font-weight: 300;
+      font-size: 3rem;
+      letter-spacing: 5px;
+      color: var(--desaturated-red);
+      div {
+        font-weight: 500;
+        color: var(--dark-grayish-red);
+      }
+    }
+  }
+  p {
+    line-height: 1.5rem;
+    color: var(--desaturated-red);
+  }
+  form {
+    input[type='email'] {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      background-color: transparent;
+      border: 1px solid var(--desaturated-red);
+      border-radius: 30px;
+    }
+    input[type='email']::placeholder {
+      color: var(--desaturated-red);
+      filter: opacity(0.5);
+      padding-inline-start: 1.5rem;
+      letter-spacing: 1px;
+    }
+    button {
+      position: absolute;
+      right: 30px;
+      width: 65px;
+      height: 50px;
+      background-color: #f2a5a5;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+  }
+}
