@@ -55,3 +55,40 @@
     }
   }
 }
+
+.ba-hero__desktop {
+  display: none;
+}
+
+@media (width > 600px) {
+  .ba-header {
+    display: none;
+  }
+  .ba-main {
+    display: flex;
+    flex-direction: row-reverse;
+    .ba-hero {
+      display: none;
+    }
+    .ba-hero__desktop {
+      display: flex;
+      height: 100vh;
+      width: 85%;
+      overflow: hidden;
+    }
+    .ba-hero__img {
+      width: fit-content;
+    }
+    .ba-header__desktop {
+      position: absolute;
+      left: 30px;
+    }
+    .ba-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-inline: 30px;
+    }
+  }
+}
